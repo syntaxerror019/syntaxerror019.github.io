@@ -172,7 +172,32 @@
         color: #d4e1e3;
       }
 
-      /* ... (remaining CSS code) ... */
+      hr {
+        border: none;
+        height: 4px;
+        width: 100px;
+        background: #57b5b8;
+        animation: glitch 0.1s infinite;
+      }
+      @keyframes glitch {
+        0%,
+        20%,
+        100% {
+          transform: translate(-10px, 7px);
+          width: 109%;
+        }
+        10%,
+        30% {
+          transform: translate(15px, -20px);
+          width: 97%;
+        }
+        25%,
+        50%,
+        75% {
+          transform: translate(0px, 15px);
+          width: 75%;
+        }
+      }
     </style>
   </head>
   <body>
@@ -254,7 +279,7 @@
     </div>
     <br />
     <br /><br />
-    <center>----------------------------------</center>
+    <center><hr style="width: 80%; outline-color: green;" /></center>
     <br /><br />
     <br />
 
@@ -402,18 +427,20 @@
         </tr>
         <tr>
           <td class="app-link">
-            <a href="https://openfile.sky-wired.repl.co/">Lots of Words</a>
+            <a href="https://github.com/syntaxerror019/Stuff">Random Files</a>
           </td>
           <td class="app-description">
-            A large dictionary of words.
+            Just a random folder with some random things.
           </td>
         </tr>
         <tr>
           <td class="app-link">
-            <a>Windows XP ISO file (For VM or installation)</a>
+            <a href="https://github.com/syntaxerror019/ISO/"
+              >Windows ISO files (For VM or installation)</a
+            >
           </td>
           <td class="app-description">
-            Literally just the ISO file for Windows XP.
+            A compiled list of ISO files.
           </td>
         </tr>
       </table>
