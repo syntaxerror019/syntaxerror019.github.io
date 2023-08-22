@@ -82,13 +82,13 @@
       }
 
       .section h2 {
-        font-size: 30px;
+        font-size: 33px;
         margin-bottom: 20px;
         color: #57b5b8;
       }
 
       .section p {
-        font-size: 26px; /* Larger font size for readability */
+        font-size: 28px; /* Larger font size for readability */
         line-height: 1.6;
         margin-bottom: 20px;
         position: relative; /* Keep blinking cursor in line with text */
@@ -147,6 +147,32 @@
       .projects-button:hover {
         background-color: #468b8f;
       }
+      /* ... (previous CSS code) ... */
+
+      .apps-table {
+        width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+        margin-top: 20px;
+        font-size: 28px;
+      }
+
+      .apps-table td {
+        padding: 10px;
+        text-align: center;
+        border: 1px solid #57b5b8;
+      }
+
+      .apps-table a {
+        text-decoration: none;
+        color: #57b5b8;
+      }
+
+      .apps-table a:hover {
+        color: #d4e1e3;
+      }
+
+      /* ... (remaining CSS code) ... */
     </style>
   </head>
   <body>
@@ -220,7 +246,160 @@
         email, or thats it! I'd love to connect and collaborate!
         <span class="text-cursor"></span>
       </p>
-      <sub>Find links below</sub>
+      <u class="icon"
+        ><a onclick="alert('syntaxerror19')" class="icon">Discord</a></u
+      >
+      <a href="mailto:skywiredvt@gmail.com" class="icon">Email</a>
+      <a href="https://github.com/syntaxerror019/" class="icon">Github</a>
+    </div>
+    <br />
+    <br /><br />
+    <center>----------------------------------</center>
+    <br /><br />
+    <br />
+
+    <div class="section">
+      <h2>My Projects</h2>
+      <table class="apps-table">
+        <tr>
+          <td colspan="2"><u>Python Scripts</u></td>
+        </tr>
+        <tr>
+          <td class="app-link"><a href="#">Facial Detection</a></td>
+          <td class="app-description">
+            A simple script using OpenCV to detect faces with your computer's
+            webcam.
+          </td>
+        </tr>
+        <tr>
+          <td class="app-description">
+            <a href="#">File to Audio</a>
+          </td>
+          <td class="app-link">
+            A method to encode a file of your choice into an mp3 or wav file
+            that can be stored.
+          </td>
+        </tr>
+        <tr>
+          <td class="app-description">
+            <a href="#">Audio to File</a>
+          </td>
+          <td class="app-link">
+            A sibling script to the above script, that decodes that audio back
+            into the original file.
+          </td>
+        </tr>
+        <tr>
+          <td class="app-description">
+            <a href="#">Mouse Position</a>
+          </td>
+          <td class="app-link">
+            A quick program used to capture your current mouse coordinates on
+            your screen.
+          </td>
+        </tr>
+        <tr>
+          <td class="app-description">
+            <a href="#">Discord Status Changer</a>
+          </td>
+          <td class="app-link">
+            A very nifty script that can be used to acquire an automatically
+            changing discord status.
+          </td>
+        </tr>
+      </table>
+      <br /><br /><br />
+      <table class="apps-table">
+        <tr>
+          <td colspan="2"><u>Online Apps</u></td>
+        </tr>
+        <tr>
+          <td class="app-link">
+            <a href="https://d19ls5.csb.app/">Age Calculator</a>
+          </td>
+          <td class="app-description">
+            An old script that can be used to see how old you are in many
+            different units.
+          </td>
+        </tr>
+        <tr>
+          <td class="app-link">
+            <a href="https://hfu8k.csb.app">Crappy Game</a>
+          </td>
+          <td class="app-description">
+            A game i made when i was like 3. It's extremely bad.
+          </td>
+        </tr>
+        <tr>
+          <td class="app-link">
+            <a href="https://4jxf2.csb.app/index2.html">QR Code Generator</a>
+          </td>
+          <td class="app-description">
+            A very very old script used to generator QR codes (Still Operational
+            as of 2022)
+          </td>
+        </tr>
+      </table>
+
+      <br /><br /><br />
+      <table class="apps-table">
+        <tr>
+          <td colspan="2"><u>My Services (APIs)</u></td>
+        </tr>
+        <tr>
+          <td class="app-link">
+            <a href="https://openfile.sky-wired.repl.co/"
+              >OpenFile - Free File Hosting</a
+            >
+          </td>
+          <td class="app-description">
+            A pretty cool service that anybody can use to send their files to
+            someone for free with only one URL!
+          </td>
+        </tr>
+        <tr>
+          <td class="app-link">
+            <a>Random Word API - DEPRECATED</a>
+          </td>
+          <td class="app-description">
+            A simple API used for generating random words on command. Supports
+            arguments such as word length and NSFW. Also could provide
+            definitions. (DEPRECATED)
+          </td>
+        </tr>
+        <tr>
+          <td class="app-link">
+            <a href="https://storage.sky-wired.repl.co/">Storage API</a>
+          </td>
+          <td class="app-description">
+            An old API used for storing and retrieving strings, ints, floats,
+            etc. for long periods of time for free.
+          </td>
+        </tr>
+      </table>
+      <br /><br /><br />
+
+      <table class="apps-table">
+        <tr>
+          <td colspan="2"><u>Other Resources</u></td>
+        </tr>
+        <tr>
+          <td class="app-link">
+            <a href="https://openfile.sky-wired.repl.co/">Lots of Words</a>
+          </td>
+          <td class="app-description">
+            A large dictionary of words.
+          </td>
+        </tr>
+        <tr>
+          <td class="app-link">
+            <a>Windows XP ISO file (For VM or installation)</a>
+          </td>
+          <td class="app-description">
+            Literally just the ISO file for Windows XP.
+          </td>
+        </tr>
+      </table>
     </div>
 
     <div class="footer">
